@@ -185,6 +185,7 @@ client.on('error', (err) => {
   }
 })();
 
+```
 
 
 # Queues Running on Separate EC2 Machines
