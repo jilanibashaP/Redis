@@ -185,6 +185,7 @@ client.on('error', (err) => {
   }
 })();
 
+```
 
 
 # Queues Running on Separate EC2 Machines
@@ -232,5 +233,14 @@ This distinction makes Redis ideal for use cases like caching, real-time analyti
 
 
 
-we can interct with redis server by using the CLI aswell
+## Interacting with Redis Using the CLI
+
+You can interact with a Redis server directly using the command-line interface (CLI) provided by Redis. The Redis CLI is a simple yet powerful tool for managing and querying Redis databases.
+
+### Using `redis-cli`
+
+To access the Redis CLI, simply run the `redis-cli` command from your terminal. The default connection is to the local Redis server running on `localhost` (127.0.0.1) and port `6379`. Here's how to use it:
+
+```bash
 redis-cli
+```
