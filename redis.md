@@ -244,3 +244,10 @@ To access the Redis CLI, simply run the `redis-cli` command from your terminal. 
 ```bash
 redis-cli
 ```
+
+
+In redis, data is stored in different proces because, in distributed systems, accessing the data will be easier on different servers. However, if you store it in a single queue variable, accessing that data from other servers will be difficult.
+
+
+
+Redis operates on a single-threaded model, but it is incredibly fast. While it cannot handle two requests simultaneously, it efficiently manages tasks using queues.
